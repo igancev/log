@@ -3,12 +3,12 @@
 namespace igancev\log;
 
 /**
- * Log 1.0.0
- * igancev\helpers\LogGarbageCollector класс для чистки логов
- * igancev\helpers\LogGarbageCollector class to clean the logs
+ * Класс для чистки (удаления) логов
+ * Class to clean (delete) the logs
  *
- * @namespace  igancev\helpers
- * @package    LogGarbageCollector
+ * @version 1.0.1
+ * @namespace  igancev\log
+ * @package    Log
  * @author     Ivan Gantsev <ivangancev@yandex.ru>
  * @copyright  2016 Ivan Gantsev
  * @link       http://github.com/igancev/Log
