@@ -1,17 +1,17 @@
 <?php
 
-namespace igancev\log;
+namespace Igancev\Log;
 
 /**
  * Класс для чистки (удаления) логов
  * Class to clean (delete) the logs
  *
- * @version 1.0.1
+ * @version 1.0.2
  * @namespace  igancev\log
- * @package    Log
+ * @package    log
  * @author     Ivan Gantsev <ivangancev@yandex.ru>
  * @copyright  2016 Ivan Gantsev
- * @link       http://github.com/igancev/Log
+ * @link       http://github.com/igancev/log
  *
  */
 class LogGarbageCollector

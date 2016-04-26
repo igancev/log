@@ -1,11 +1,11 @@
-# Log - логирование в файлы на PHP
+# log - логирование в файлы на PHP
 
 Библиотека для логирования всевозможных данных в файлы, их структурированного хранения, а также их очистки по истечении срока жизни.
 Удобный инструмент для записи логов периодических и не только операций, и автоматического своевременного удаления устаревших файлов с диска.
 
 ## Установка
 
-Log доступен на Packagist ([igancev/log](http://packagist.org/packages/igancev/log))
+log доступен на Packagist ([igancev/log](http://packagist.org/packages/igancev/log))
 и устанавливается через [Composer](http://getcomposer.org/).
 
 ```bash
@@ -28,7 +28,7 @@ $ composer require igancev/log
 ### Запись лога в одну строку
 
 ```php
-(new igancev\log\Log('log text'))->setFileDir('/log/path/')->setLifeTime(5)->addLog();
+(new Igancev\Log\Log('log text'))->setFileDir('/log/path/')->setLifeTime(5)->addLog();
 ```
 
 ### Запись лога с кастомизированными настройками:
@@ -42,7 +42,7 @@ $ composer require igancev/log
  
 ```php
 
-use igancev\log\Log;
+use Igancev\Log\Log;
 
 $log = new Log;
 
@@ -77,7 +77,7 @@ add more text
 Со временем файлы логов, особенно при периодических операциях, накапливаются, занимая драгоценное место на диске. Устанавливая при создании объекта метку **lifetime** методом **$log->setLifeTime($daysCount)**, мы оставляем тем самым для себя возможность в дальнейшем чистить устаревшие файлы (с истекшим "сроком действия" lifetime), установив на периодическое выполнение (например cron) метод:
 
 ```php
-use igancev\log\LogGarbageCollector;
+use Igancev\Log\LogGarbageCollector;
 
 LogGarbageCollector::clearOld('/path/to/clear/dir', true);
 ```
