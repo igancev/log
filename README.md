@@ -19,7 +19,7 @@ $ composer require igancev/log
 ```js
 {
     "require": {
-        "igancev/log": "1.0.1"
+        "igancev/log": "^1.0"
     }
 }
 ```
