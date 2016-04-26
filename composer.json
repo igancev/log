@@ -1,8 +1,17 @@
 {
   "name":"igancev/Log",
   "type": "library",
+  "version":"1.0.1",
   "description": "Composer package by igancev for record log in file, and delete their",
-  "version":"1.0.0",
+  "keywords": ["log", "logging"],
+  "homepage": "https://github.com/igancev/Log",
+  "authors": [
+    {
+      "name": "Ivan Gantsev",
+      "email": "ivangancev@yandex.ru",
+      "homepage": "http://igancev.ru"
+    }
+  ],
   "require":{
     "php":">=5.3.0"
   },

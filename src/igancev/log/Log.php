@@ -3,11 +3,11 @@
 namespace igancev\log;
 
 /**
- * Log 1.0.0
- * igancev\helpers\Log одиночный простой класс для логирования
- * igancev\helpers\Log is single simple class for logging
+ * Класс для файлового логирования
+ * Class for logging into the file
  *
- * @namespace  igancev\helpers
+ * @version 1.0.1
+ * @namespace  igancev\log
  * @package    Log
  * @author     Ivan Gantsev <ivangancev@yandex.ru>
  * @copyright  2016 Ivan Gantsev
